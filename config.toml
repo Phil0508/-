@@ -1,0 +1,37 @@
+# 채널 기본 설정. 여기만 고치면 영상 스타일이 바뀝니다.
+
+[channel]
+name = "AI 1분 뉴스"
+# 업로드 설명란 맨 끝에 붙는 문구
+footer = "매일 아침, AI 소식을 1분으로 정리합니다.\n이 영상의 대본과 음성은 AI 도구를 활용해 제작했습니다."
+
+[tts]
+# edge   : Microsoft Edge 온라인 음성 (무료, 인터넷 필요)
+# silent : 무음. 네트워크 없이 화면/타이밍만 확인할 때
+engine = "edge"
+# ko-KR-SunHiNeural(여), ko-KR-InJoonNeural(남), ko-KR-HyunsuMultilingualNeural(남)
+voice = "ko-KR-SunHiNeural"
+rate = "+12%"
+# 카드 사이 쉬는 시간(초)
+gap = 0.12
+
+[video]
+width = 1080
+height = 1920
+fps = 30
+# assets/bgm 폴더의 mp3를 넣으면 깔립니다. 비우면 BGM 없음.
+bgm = ""
+bgm_volume = 0.12
+
+[style]
+bg_top = "#0B1020"
+bg_bottom = "#1A2350"
+text = "#FFFFFF"
+accent = "#FFD43B"
+sub = "#9AA4C7"
+brand_bg = "#FFD43B"
+brand_text = "#0B1020"
+progress = "#FFD43B"
+font_bold = "assets/fonts/Pretendard-Bold.otf"
+font_regular = "assets/fonts/Pretendard-Medium.otf"
+main_size = 86
